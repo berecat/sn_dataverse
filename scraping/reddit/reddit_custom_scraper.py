@@ -21,6 +21,7 @@ import datetime as dt
 import asyncio
 import random
 import os
+bt.logging.set_debug()
 
 from dotenv import load_dotenv
 
@@ -231,6 +232,8 @@ class RedditCustomScraper(Scraper):
         search_limit = scrape_config.entity_limit
         search_sort = get_custom_sort_input(scrape_config.date_range.end)
         search_time = get_time_input(scrape_config.date_range.end)
+        
+        bt.logging.info(f"search_time: {scrape_config.date_range.end}")
 
         # In either case we parse the response into a list of RedditContents.
         contents = None

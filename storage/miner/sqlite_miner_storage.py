@@ -19,7 +19,9 @@ import sqlite3
 import contextlib
 import bittensor as bt
 import pandas as pd
-
+bt.logging.set_debug()
+from collections import Counter
+import json
 
 # Use a timezone aware adapter for timestamp columns.
 def tz_aware_timestamp_adapter(val):
@@ -156,8 +158,6 @@ class SqliteMinerStorage(MinerStorage):
         """Stores any number of DataEntities, making space if necessary."""
 
         added_content_size = 0
-        for data_entity in data_entities:
-            added_content_size += data_entity.content_size_bytes
 
         # If the total size of the store is larger than our maximum configured stored content size then ecept.
         if added_content_size > self.database_max_content_size_bytes:
@@ -210,6 +210,11 @@ class SqliteMinerStorage(MinerStorage):
                         data_entity.content_size_bytes,
                     ]
                 )
+                
+                
+                bt.logging.info(f"{label}: {data_entity.content_size_bytes}")
+                with open("output/scrape.txt", "a+") as file:
+                    file.write(f"{label}: {data_entity.content_size_bytes}, {data_entity.datetime}\n")
 
             # Insert overwriting duplicate keys (in case of updated content).
             cursor.executemany("REPLACE INTO DataEntity VALUES (?,?,?,?,?,?,?)", values)
@@ -406,16 +411,25 @@ class SqliteMinerStorage(MinerStorage):
 
                 buckets_by_source_by_label = defaultdict(dict)
 
+                label_counts = Counter()
                 for row in cursor:
                     # Ensure the miner does not attempt to report more than the max DataEntityBucket size.
-                    size = (
-                        constants.DATA_ENTITY_BUCKET_SIZE_LIMIT_BYTES
-                        if row["bucketSize"]
-                        >= constants.DATA_ENTITY_BUCKET_SIZE_LIMIT_BYTES
-                        else row["bucketSize"]
-                    )
+                    # size = (
+                    #     constants.DATA_ENTITY_BUCKET_SIZE_LIMIT_BYTES
+                    #     if row["bucketSize"]
+                    #     >= constants.DATA_ENTITY_BUCKET_SIZE_LIMIT_BYTES
+                    #     else row["bucketSize"]
+                    # )
+                    size = row["bucketSize"]
 
                     label = row["label"] if row["label"] != "NULL" else None
+                    label_counts[label] += 1
+                    source = row["source"]
+                    time_bucket_Id = TimeBucket(id=row["timeBucketId"])
+                    date_range = TimeBucket.to_date_range(time_bucket_Id)
+                    
+                    with open("output/index.txt", "a+") as file:
+                        file.write(f"label: {label}, source: {source}, size: {size}, from_date: {date_range.end.strftime('%Y-%m-%d %H:%M:%S %Z')}\n")
 
                     bucket = buckets_by_source_by_label[DataSource(row["source"])].get(
                         label, CompressedEntityBucket(label=label)

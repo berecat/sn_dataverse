@@ -1,0 +1,404 @@
+{
+  "apps": [
+    {
+      "name": "dataverse-offline_0",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_0.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_0.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_1",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_1.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_1.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_2",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_2.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_2.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_3",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_3.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_3.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_4",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_4.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_4.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_5",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_5.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_5.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_6",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_6.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_6.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_7",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_7.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_7.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_8",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_8.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_8.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_9",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_9.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_9.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_10",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_10.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_10.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_11",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_11.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_11.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_12",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_12.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_12.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_13",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_13.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_13.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_14",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_14.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_14.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_15",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_15.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_15.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_16",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_16.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_16.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_17",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_17.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_17.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_18",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_18.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_18.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    },
+    {
+      "name": "dataverse-offline_19",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_19.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_19.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {
+      "name": "dataverse-offline_0",
+      "script": "./neurons/miner.py",
+      "interpreter": "/home/nabeix/dev/data-universe/.venv/bin/python",
+      "args": [
+        "--neuron.database_name",
+        "db/SqliteMinerStorage_0.sqlite",
+        "--neuron.scraping_config_file",
+        "scraping/config/scraping_config_0.json",
+        "--offline"
+      ],
+      "env": {
+        "APIFY_API_TOKEN": "apify_api_eCLj9vfHc3RUAKsyEA19RQVHtHqwaz2szdEg",
+        "REDDIT_CLIENT_ID": "93VxPCZZCzxhlbcwkLBO5A",
+        "REDDIT_CLIENT_SECRET": "ngQUFUHhRPduskynOmF7SptRYmkq8w",
+        "REDDIT_USERNAME": "RevolutionaryEnd3752",
+        "REDDIT_PASSWORD": "123!@#qweQWEqazQAZ",
+        "HUGGINGFACE_TOKEN": ""
+      }
+    }
+  ]
+}

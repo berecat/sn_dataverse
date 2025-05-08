@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 
 # VS code
-.vscode/
 .env
 
 # Playground notebooks
