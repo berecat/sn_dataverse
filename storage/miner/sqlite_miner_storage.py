@@ -212,9 +212,9 @@ class SqliteMinerStorage(MinerStorage):
                 )
                 
                 
-                bt.logging.info(f"{label}: {data_entity.content_size_bytes}")
-                with open("output/scrape.txt", "a+") as file:
-                    file.write(f"{label}: {data_entity.content_size_bytes}, {data_entity.datetime}\n")
+                # bt.logging.info(f"{label}: {data_entity.content_size_bytes}")
+                # with open("output/scrape.txt", "a+") as file:
+                #     file.write(f"{label}: {data_entity.content_size_bytes}, {data_entity.datetime}\n")
 
             # Insert overwriting duplicate keys (in case of updated content).
             cursor.executemany("REPLACE INTO DataEntity VALUES (?,?,?,?,?,?,?)", values)
@@ -428,8 +428,8 @@ class SqliteMinerStorage(MinerStorage):
                     time_bucket_Id = TimeBucket(id=row["timeBucketId"])
                     date_range = TimeBucket.to_date_range(time_bucket_Id)
                     
-                    with open("output/index.txt", "a+") as file:
-                        file.write(f"label: {label}, source: {source}, size: {size}, from_date: {date_range.end.strftime('%Y-%m-%d %H:%M:%S %Z')}\n")
+                    # with open("output/index.txt", "a+") as file:
+                    #     file.write(f"label: {label}, source: {source}, size: {size}, from_date: {date_range.end.strftime('%Y-%m-%d %H:%M:%S %Z')}\n")
 
                     bucket = buckets_by_source_by_label[DataSource(row["source"])].get(
                         label, CompressedEntityBucket(label=label)
