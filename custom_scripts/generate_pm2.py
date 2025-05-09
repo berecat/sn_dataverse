@@ -4,10 +4,11 @@ import json
 with open("configs/offline.apps.json", "r") as f:
     data = json.load(f)
     
-user_name = "RevolutionaryEnd3752"
+user_name = ""
 password = "123!@#qweQWEqazQAZ"
-client_id = "93VxPCZZCzxhlbcwkLBO5A"
-client_secret = "ngQUFUHhRPduskynOmF7SptRYmkq8w"
+client_id = ""
+client_secret = ""
+hf_token = ""
 
 
 # Modify the desired fields
@@ -19,6 +20,8 @@ for app in data.get("apps", []):
         env["REDDIT_CLIENT_SECRET"] = client_secret
     if "REDDIT_USERNAME" in env:
         env["REDDIT_USERNAME"] = user_name
+    if "HUGGINGFACE_TOKEN" in env:
+        env["HUGGINGFACE_TOKEN"] = hf_token
 
 # Write the updated data to a new JSON file
 with open("output/offline.apps.config.json", "w") as f:
